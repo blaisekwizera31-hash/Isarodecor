@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sticky Navbar Demo</title>
+
+<style>
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    position: sticky;   /* 👈 makes it float while scrolling */
+    top: 0;
+    z-index: 999;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* LOGO */
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* LINKS */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* ===== PAGE CONTENT ===== */
+.section {
+    height: 100vh;
+    padding: 50px;
+}
+
+.section:nth-child(even) {
+    background: #f4f4f4;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <div class="logo">MyLogo</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- ===== CONTENT ===== -->
+<div class="section">
+    <h1>Section 1</h1>
+    <p>Scroll down — the navbar stays visible.</p>
+</div>
+
+<div class="section">
+    <h1>Section 2</h1>
+</div>
+
+<div class="section">
+    <h1>Section 3</h1>
+</div>
+
+<!-- ===== JS ===== -->
+<script>
+function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,256 @@
+.isaronavigation{
+    position: fixed;
+    top: 40px;              
+    z-index: 999;
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgb(236, 236, 236);
+    border-radius: 70px;
+    height: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(118, 118, 118);
+    transition: 0.3s ease all;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s ease all;
+}
+nav p:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+nav span{
+    color: goldenrod;
+}
+nav a:hover{
+    color: goldenrod;
+    transform: translateY(-4px);
+}
+nav .heart {
+    width: 50px;
+    height: 50px;
+    transition: 0.7s ease all;
+    cursor: pointer;
+}
+
+nav .heart:hover {
+    transform: rotateZ(360deg);
+}
+
+#firstpart{
+    background-image: url(images/decorb.png);
+    height: 750px;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+}
+#png{
+    color: white;
+    /* position: absolute;
+    top: 300px;
+    left: 500px; */
+    text-align: center;
+    margin-top: 300px;
+}
+
+#png h1{
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+#png p{
+    font-size: 20px;
+
+}
+#secondpart{
+    background-image: url(images/back2.png);
+    height: 1000px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    height: 450px;
+    text-align: center;
+    justify-content:center;
+    width: 100%;
+    gap: 40px;
+    
+    
+}
+.gridexample{
+   width: 350px;
+    background-color: white;
+    transition: 0.3s ease all;
+    border-radius: 20px;
+    z-index: 100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);;
+}
+
+#a, #b, #c{
+    font-family: serif;
+    height: 10px;
+    font-size: 18px;
+    color: goldenrod;
+}
+#A, #B, #C{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+}
+.gridexample:hover{
+    transform: translateY(-10px)
+}
+
+.pretext{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 260px;
+    
+}
+.pretext p{
+    color: goldenrod;
+    font-size: 15px;
+}
+.pretext h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#cakes{
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+#thirdpart{
+    background-color: whitesmoke;
+    height: 1000px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    height: 600px;
+    text-align: center;
+    padding: 30px;
+}
+.gallerypic{
+    width: 350px;
+    border-radius: 20px;
+    text-align: center; 
+}
+.pic{
+    transition: 0.5s ease all, filter 0.3s ease;
+}
+.pic:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+#getintouch{
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#form{
+    background-color: rgb(244, 244, 244);
+    height: 620px;
+    width: 600px;
+    padding-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);;
+}
+#display{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    height: 700px;
+}
+#form label{
+    color: goldenrod;
+    margin: 10px 20px 10px 20px;
+    font-size: 20px;
+    
+}
+#form #wedd{
+    height: 40px;
+    transition: all 0.3s;
+}
+#form #wedd:hover{
+   transform: scale(1.02);
+   filter: brightness(1.1);
+   cursor: pointer;
+   background-color: goldenrod;    
+}
+#form input, select, textarea{
+    margin: 20px;
+    width: 300px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#form textarea{
+    width: 350px;
+    height: 50px;
+}
+#form select{
+    height: 40px;
+    width: 330px;
+}
+#getintouch{
+    background-color: rgb(249, 249, 249); 
+}
+#footer{
+    background-color: rgb(73, 33, 4);
+    height: 120px;
+   
+}
+#footer p{
+    margin-top: 0px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#footer span{
+   color: goldenrod; 
+}
+#footer h3{
+    font: 10px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: lighter;
+}
+#wou, #wau{
+    transition: 0.3s ease all;
+}
+#wou:hover, #wau:hover{
+    transform: translateY(10px);
+}
+html{
+    scroll-behavior: smooth;
+}
