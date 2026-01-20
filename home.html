@@ -121,28 +121,30 @@
                 <a href="facebook.com"><img src="images/ig.png" alt="Facebook" id="wou"></a>
                 <a href="instagram.com"><img src="images/face.png" alt="Instagram" id="wau"></a>
             </div>
-            <div id="form">
-                <label for="names">Names</label> <br>
-                <input type="text" name="names" id="names" placeholder="Your names"> <br>
-                <label for="email">Email Address</label> <br>
-                <input type="email" name="email" id="email" placeholder="123@example.xyz"> <br>
-                <label for="phone">Phone number</label> <br>
-                <input type="number" name="number" id="phone" placeholder="Your mobile phone"> <br>
-                <label for="optical">Service needed</label><br>
-                <select name="optician" id="optical">
-                    <option value="1">Venue decoration</option>
-                    <option value="2">Wedding coordination</option>
-                    <option value="3">Clothing</option>
-                </select><br>
-                <label for="textt">Your message</label><br>
-                <textarea name="text" id="textt" placeholder="Tell us about your dream wedding"></textarea> <br>
-                <label for="wedd">Send</label><br>
-                <input type="submit" name="wedd" id="wedd" value="Submit"><br>
-                <label for="wedd">Reset</label><br>
-                <input type="reset" value="Reset" id="wedd">
-            </div>
-        </div>
-     </div>
+            <form action="https://formspree.io/f/xldpoeqy" method="POST">
+                <div id="form">
+                    <label for="names">Names</label> <br>
+                    <input type="text" name="names" id="names" placeholder="Your names" pattern="[a-z]+"> <br>
+                    <label for="email">Email Address</label> <br>
+                    <input type="email" name="email" id="email" placeholder="123@example.xyz"> <br>
+                    <label for="phone">Phone number</label> <br>
+                    <input type="number" name="number" id="phone" placeholder="Your mobile phone"> <br>
+                    <label for="optical">Service needed</label><br>
+                    <select name="optician" id="optical">
+                        <option value="1">Venue decoration</option>
+                        <option value="2">Wedding coordination</option>
+                        <option value="3">Clothing</option>
+                    </select><br>
+                    <label for="textt">Your message</label><br>
+                    <textarea name="text" id="textt" placeholder="Tell us about your dream wedding"></textarea> <br>
+                    <label for="wedd">Send</label><br>
+                    <input type="submit" name="wedd" id="wedd" value="Submit"><br>
+                    <label for="wedd">Reset</label><br>
+                    <input type="reset" value="Reset" id="wedd">
+                </div>
+                        </div>
+                     </div>
+            </form>
     <div id="footer">
            <p>Isaro <span>Decor</span></p>
            <h3>Alrights reserved</h3>
