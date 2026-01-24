@@ -270,7 +270,9 @@ html{
     padding: 10px;
     top: 10px;
 }
-nav 
+nav #contact{
+    display: none;
+}
 
 nav a{
     font-size: 11px;
