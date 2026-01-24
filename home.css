@@ -305,6 +305,9 @@ nav p{
 .gridexample{
     
 }
+#galleryy{
+    margin-top: 300px;
+}
 .gallery{
     grid-template-columns: 1fr;
     height: auto;
