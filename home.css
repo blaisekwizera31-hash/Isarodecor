@@ -255,62 +255,190 @@ html{
     scroll-behavior: smooth;
 }
 
+/* ========================= */
+/* MOBILE PHONES (0px–600px) */
+/* iPhone SE, XR, Pixel, Galaxy A51 */
+/* ========================= */
+
 @media (max-width: 600px) {
 
-.isaronavigation {
+.isaronavigation{
     width: 95%;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
     height: auto;
     padding: 10px;
     top: 10px;
 }
 
-nav a {
+nav a{
     font-size: 11px;
 }
 
-#png h1 {
-    font-size: 45px;
+nav p{
+    font-size: 16px;
 }
 
-#png {
+#png{
     margin-top: 200px;
 }
 
-.grid {
+#png h1{
+    font-size: 42px;
+}
+
+#png p{
+    font-size: 14px;
+}
+
+.grid{
     flex-direction: column;
     align-items: center;
-    height: auto;
 }
 
-.gridexample {
-    width: 90%;
+.gridexample{
+    width: 95%;
 }
 
-.gallery {
+.gallery{
     grid-template-columns: 1fr;
     height: auto;
 }
 
-.gallerypic img {
+.gallery img{
     width: 100%;
     height: auto;
 }
 
-#display {
+#display{
     flex-direction: column;
     height: auto;
 }
 
 #getintouch,
-#form {
+#form{
+    width: 95%;
+}
+
+#form input,
+#form select,
+#form textarea{
     width: 90%;
 }
 
 #secondpart,
-#thirdpart {
+#thirdpart{
     height: auto;
+}
+
+#footer p{
+    font-size: 20px;
+}
+
+}
+
+
+/* ========================= */
+/* LARGE PHONES + FOLDABLES */
+/* (601px–768px) */
+/* ========================= */
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+.isaronavigation{
+    width: 95%;
+}
+
+.grid{
+    flex-wrap: wrap;
+}
+
+.gridexample{
+    width: 45%;
+}
+
+.gallery{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#png h1{
+    font-size: 60px;
+}
+
+#display{
+    flex-direction: column;
+}
+
+#getintouch,
+#form{
+    width: 85%;
+}
+
+}
+
+
+/* ========================= */
+/* TABLETS */
+/* iPad Mini, Air, Pro */
+/* (769px–1024px) */
+/* ========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+.isaronavigation{
+    width: 90%;
+}
+
+.gridexample{
+    width: 280px;
+}
+
+.gallery{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#form{
+    width: 500px;
+}
+
+#png h1{
+    font-size: 75px;
+}
+
+}
+
+
+/* ========================= */
+/* LAPTOPS */
+/* (1025px–1366px) */
+/* ========================= */
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+.isaronavigation{
+    width: 900px;
+}
+
+.gridexample{
+    width: 300px;
+}
+
+#png h1{
+    font-size: 90px;
+}
+
+}
+
+
+/* ========================= */
+/* LARGE DESKTOP SCREENS */
+/* (1367px+) */
+/* ========================= */
+
+@media (min-width: 1367px) {
+
+.isaronavigation{
+    width: 1100px;
 }
 
 }
