@@ -266,13 +266,16 @@ html{
     width: 95%;
     flex-wrap: wrap;
     gap: 12px;
-    height: auto;
     padding: 10px;
     top: 10px;
 }
-nav #contact{
+nav p{
     display: none;
 }
+}
+nav .heart {
+    display: none;
+}  
 
 nav a{
     font-size: 11px;
