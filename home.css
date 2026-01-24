@@ -303,9 +303,8 @@ nav p{
 }
 
 .gridexample{
-    width: 95%;
+    
 }
-
 .gallery{
     grid-template-columns: 1fr;
     height: auto;
@@ -341,7 +340,7 @@ nav p{
     font-size: 20px;
 }
 
-}
+
 
 
 /* ========================= */
