@@ -272,10 +272,15 @@ html{
 nav p{
     display: none;
 }
+#grid{
+    margin-top: 600px;
 }
 nav .heart {
     display: none;
-}  
+} 
+ #firstpart{
+    margin-bottom: 200px;
+ }
 
 nav a{
     font-size: 11px;
