@@ -301,6 +301,10 @@ nav p{
 #png{
     margin-top: 200px;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    line-height: 30px;
 }
 
 #png h1{
@@ -360,7 +364,7 @@ nav p{
     font-size: 20px;
 }
 #pretext {
-    margin-top: 20px;
+    margin-top: -2000px;
 }
 
 
