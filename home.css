@@ -343,8 +343,11 @@ nav p{
     width: 87%;
 }
 
-#secondpart,
 #thirdpart{
+  height: 1500px;
+}
+
+#secondpart{
     margin-top: 0px;
     height: 1800px;
 }
