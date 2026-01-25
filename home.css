@@ -329,7 +329,7 @@ nav p{
 }
 
 .gallery img{
-    width: 9%;
+    width: 95%;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -386,6 +386,12 @@ nav p{
 .isaronavigation{
     width: 95%;
 }
+.isaronavigation heart{
+    display: none;
+}
+nav p{
+    display:  none;
+}
 
 .grid{
     flex-wrap: wrap;
@@ -426,6 +432,13 @@ nav p{
 .isaronavigation{
     width: 90%;
 }
+.isaronavigation heart{
+    display: none;
+}
+nav p{
+    display:  none;
+}
+
 
 .gridexample{
     width: 280px;
