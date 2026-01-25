@@ -329,7 +329,7 @@ nav p{
 }
 
 .gallery img{
-    width: 95%;
+    width: 9%;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -378,10 +378,10 @@ nav p{
 
 /* ========================= */
 /* LARGE PHONES + FOLDABLES */
-/* (601px–768px) */
+/* 540px – 720px */
 /* ========================= */
 
-@media (min-width: 601px) and (max-width: 768px) {
+@media (min-width: 540px) and (max-width: 720px) {
 
 .isaronavigation{
     width: 95%;
@@ -392,7 +392,7 @@ nav p{
 }
 
 .gridexample{
-    width: 45%;
+    width: 100%;
 }
 
 .gallery{
@@ -400,7 +400,7 @@ nav p{
 }
 
 #png h1{
-    font-size: 60px;
+    font-size: 48px;
 }
 
 #display{
@@ -409,52 +409,53 @@ nav p{
 
 #getintouch,
 #form{
-    width: 85%;
+    width: 95%;
 }
 
 }
 
 
+
 /* ========================= */
-/* TABLETS */
-/* iPad Mini, Air, Pro */
-/* (769px–1024px) */
+/* SMALL TABLETS + NEST HUB */
+/* 721px – 1024px */
 /* ========================= */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 721px) and (max-width: 1024px) {
 
 .isaronavigation{
-    width: 90%;
+    width: 92%;
 }
 
 .gridexample{
-    width: 280px;
+    width: 48%;
 }
 
 .gallery{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #form{
-    width: 500px;
+    width: 80%;
 }
 
 #png h1{
-    font-size: 75px;
+    font-size: 60px;
 }
 
 }
+
 
 
 /* ========================= */
 /* LAPTOPS */
-/* (1025px–1366px) */
+/* 1025px – 1366px */
 /* ========================= */
 
 @media (min-width: 1025px) and (max-width: 1366px) {
 
 .isaronavigation{
-    width: 900px;
+    width: 85%;
 }
 
 .gridexample{
@@ -462,22 +463,22 @@ nav p{
 }
 
 #png h1{
-    font-size: 90px;
+    font-size: 80px;
 }
 
 }
+
 
 
 /* ========================= */
-/* LARGE DESKTOP SCREENS */
-/* (1367px+) */
+/* LARGE DESKTOPS */
+/* 1367px+ */
 /* ========================= */
 
 @media (min-width: 1367px) {
 
 .isaronavigation{
-    width: 1100px;
+    width: 75%;
 }
 
-}
 }
