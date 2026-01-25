@@ -269,6 +269,7 @@ html{
     padding: 10px;
     top: 10px;
 }
+
 nav p{
     display: none;
 }
@@ -279,7 +280,7 @@ nav .heart {
     display: none;
 } 
  #firstpart{
-    margin-bottom: 200px;
+    height: 400px;
  }
  #thirdpart{
     margin-top: 700px;
@@ -341,7 +342,7 @@ nav p{
 
 #secondpart,
 #thirdpart{
-    margin-top: 500px;
+    margin-top: 0px;
     height: auto;
 }
 
