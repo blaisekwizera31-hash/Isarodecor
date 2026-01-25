@@ -329,8 +329,11 @@ nav p{
 }
 
 .gallery img{
-    width: 100%;
+    width: 95%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 #display{
