@@ -81,7 +81,7 @@ nav .heart:hover {
 }
 #secondpart{
     background-image: url(images/back2.png);
-    height: 1000px;
+    
     object-fit: cover;
     justify-content: center;
 }
