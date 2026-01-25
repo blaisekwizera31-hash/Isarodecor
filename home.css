@@ -81,7 +81,7 @@ nav .heart:hover {
 }
 #secondpart{
     background-image: url(images/back2.png);
-    height: 1000px;
+    height: 800px;
     object-fit: cover;
     justify-content: center;
 }
@@ -142,7 +142,7 @@ nav .heart:hover {
 }
 #thirdpart{
     background-color: whitesmoke;
-    height: 1000px;
+    height: 800px;
 }
 .gallery{
     display: grid;
@@ -283,10 +283,11 @@ nav .heart {
     display: none;
 } 
  #firstpart{
-    height: 400px;
+    height: 700px;
  }
  #thirdpart{
     margin-top: 100px;
+    border: 2px solid red;
  }
 
 nav a{
@@ -349,6 +350,7 @@ nav p{
 }
 
 #secondpart{
+    margin-bottom: 0px;
     margin-top: 0px;
     height: 2000px;
 }
