@@ -269,6 +269,9 @@ html{
     padding: 10px;
     top: 10px;
 }
+.grid{
+    margin-top: 500px;
+}
 
 nav p{
     display: none;
