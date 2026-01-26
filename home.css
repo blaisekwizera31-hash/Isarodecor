@@ -384,7 +384,7 @@ nav p{
 @media (min-width: 601px) and (max-width: 768px) {
 
 .isaronavigation{
-    width: 95%;
+    width: 90%;
 }
 .isaronavigation heart{
     display: none;
@@ -393,9 +393,9 @@ nav p{
     display:  none;
 }
 
-.grid{
+/* .grid{
     flex-wrap: wrap;
-}
+} */
 
 .gridexample{
     width: 45%;
@@ -432,7 +432,7 @@ nav p{
 .isaronavigation{
     width: 90%;
 }
-.isaronavigation heart{
+.isaronavigation .heart{
     display: none;
 }
 nav p{
@@ -493,4 +493,6 @@ nav p{
 }
 
 }
+
+
 }
